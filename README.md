@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # knjiznica_1 (knjiznica_1)
 
 sustav knjiznice
@@ -39,3 +40,6 @@ quasar build
 
 ### Customize the configuration
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+=======
+# knjiznicaml
+>>>>>>> af265fd15f590e6f59d5a6fc485b461a8f430f33
