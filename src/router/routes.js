@@ -9,13 +9,15 @@ const routes = [
       { path: 'o_nama', component: () => import('pages/ONamaPage.vue') }, // O nama
       { path: 'lokacija', component: () => import('pages/LokacijaPage.vue') }, // Lokacija
       { path: 'login', component: () => import('pages/LoginPage.vue') }, // Login
-      { path: 'registracija', component: () => import('pages/RegistracijaPage.vue') } // Registracija
+      { path: 'registracija', component: () => import('pages/RegistracijaPage.vue') }, // Registracija
+      { path: 'PopisKnjigaBazaPage', component: () => import('pages/PopisKnjigaBazaPage.vue') }, // Missing comma here
+      { path: 'RezervacijePage', component: () => import('pages/RezervacijePage.vue') }
     ]
   },
   {
-    path: '/:catchAll(.)',
+    path: '/:catchAll(.*)', // This is the correct syntax for a wildcard route
     component: () => import('pages/ErrorNotFound.vue')
   }
 ]
 
-export default routes
+export default routes;

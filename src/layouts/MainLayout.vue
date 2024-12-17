@@ -102,6 +102,18 @@ const linksList =
     caption: 'Kreirajte račun',
     icon: 'person_add',
     link: '/registracija'
+  },
+  {
+    title: 'PopisKnjigaBazaPage',
+    caption: 'baza',
+    icon: 'book',
+    link: '/PopisKnjigaBazaPage'
+  },
+  {
+    title: 'RezervacijePage',
+    caption: 'rezervacije',
+    icon: 'rez',
+    link: '/RezervacijePage'
   }
 ]
 
